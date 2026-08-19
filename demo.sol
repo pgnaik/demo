@@ -5,5 +5,4 @@ contract demo {
    function set(uint _x) public {
       x = _x;
    }
-   
 }

@@ -1,0 +1,26 @@
+{
+  "demo.sol": {
+    "__sources__": {
+      "demo.sol": {
+        "content": "// SPDX-License-Identifier: GPL-3.0\npragma solidity >=0.4.0 <0.6.0;\ncontract demo {\n   uint public x;\n   function set(uint _x) public {\n      x = _x;\n   }\n}\n",
+        "file": "demo.sol"
+      }
+    }
+  },
+  "counter.sol": {
+    "__sources__": {
+      "counter.sol": {
+        "content": "// SPDX-License-Identifier: MIT\r\npragma solidity ^0.8.20;\r\ncontract Counter {\r\n    uint public count;\r\n    function increment() public {\r\n        count++;\r\n    }\r\n}\r\n",
+        "file": "counter.sol"
+      }
+    }
+  },
+  "vulnerability.sol": {
+    "__sources__": {
+      "vulnerability.sol": {
+        "content": "pragma solidity 0.5.0;\r\ncontract local{\r\n uint8 public money=255;\r\n\r\nfunction setter() public {\r\n money = money+1; \r\n}\r\n}",
+        "file": "vulnerability.sol"
+      }
+    }
+  }
+}
